@@ -4,7 +4,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 import sys
 
-GOOGLE_API_KEY = "AIzaSyA0rW2LbTuF2vNHHl7EO0FUSNvKn4qaphY" 
+GOOGLE_API_KEY = "your-google-api-key" 
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
 
