@@ -16,7 +16,7 @@ humidity = []
 temp = []
 response = ''
 infer_log = ''
-GOOGLE_API_KEY = "AIzaSyA0rW2LbTuF2vNHHl7EO0FUSNvKn4qaphY"
+GOOGLE_API_KEY = "----------------------------------"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
 main_window_instance = None
